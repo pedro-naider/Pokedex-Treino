@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    padding-top: 08%;
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    min-height: 100vh;
+}
+
+
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex {
+width: 100%;
+max-width:  425px;
+}
+
+.pokemon__image {
+position: absolute;
+bottom: 51%;
+left: 52%;
+transform: translate(-63%, 20%);
+height: 13%;
+}
+
+.pokemon__data {
+    position: absolute;
+    font-weight: 550;
+    color: rgb(8, 1, 17);
+    top:  56.2%;
+    right: 27%;
+    font-size: clamp(8px, 5vw), 25px;
+}
+
+.pokemo__name {
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.form {
+    position: absolute;
+    /* background-color: red ; */
+    width: 65%;
+    top: 65%;
+    left: 13%;
+}
+
+.input__search {
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 30px;
+    font-weight: 600px;
+    color: rgb(49, 49, 63);
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333, -3px 7px 0 #666;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #3a444d;
+    box-shadow: -2px 3px 0 #333, -4px 6px 0 #3f3f3f;
+    
+}
+
+.buttonn:hover {
+    color: rgb(46, 4, 4);
+    background-color: #f5f5f5be;
+}
+
+
+.button:active {
+    box-shadow: inset -4px 4px 0 white, -8px 8px 0 black;
+    background-color: white; /* Green */
+    color: black;
+}
+.linha {
+    width: 50%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 02px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: #fafafa;
+    box-shadow: -2px 3px 0 #333, -4px 6px 0 #3f3f3f;
+}
+
+.audio {
+    top: 100%;
+}

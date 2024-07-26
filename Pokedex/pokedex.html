@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script defer src="./js/script.js"></script>
+
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+    <audio src="./audio/musica.mp3" autoplay controls class="audio">
+    </audio>
+
+    <main>
+<h1>Procure o seu Pokemon</h1>
+        <img src="#" alt="pokemon" class="pokemon__image">
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span>
+            <span class="pokemon__name"></span>
+        </h1>
+        <form class="form">
+            <input type="search" class="input__search" placeholder="Name or number" required >
+        </form>
+        <div class="buttons">
+            <button onmousedown='sound1.play()'class="button buttonn btn-prev">Anterior</button>
+            <button onmousedown='sound1.play()'class="button buttonn bnt-next">Próximo</button>
+        </div>
+
+
+        <img src="./imagens/pokedex.png" alt="Pokedex" class="pokedex">
+
+       <script>
+        var sound1 = new Audio();
+        sound1.src = './audio/click.mp3'
+       </script>
+
+    </main>
+    <p2 class="linha">
+        Creditos: Pedro Naider
+    </p2>
+</body>
+
+</html>
